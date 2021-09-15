@@ -3,8 +3,5 @@
 	<persistence-unit name="ProjetoWildFly">
 		<jta-data-source>MySqlDS</jta-data-source>		
 		<class>br.com.projeto.model.Pessoa</class>
-		<properties>
-			<property name="javax.persistence.schema-generation.database.action" value="create"/>
-		</properties>
 	</persistence-unit>
 </persistence>
